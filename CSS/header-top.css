@@ -131,7 +131,7 @@
 
 .main {
     width: 100%;
-    height: 600px;
+    height: 470px;
     background-image: url(../image/bg-banner.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 250px;
-    width: 50%;
+    width: 40%;
 }
 
 .bg-text h1 {
@@ -171,7 +171,7 @@
     border: none;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     height: 40px;
 }
 
@@ -186,9 +186,14 @@
     margin: auto;
 }
 
+.container1 {
+    width: 70%;
+    margin: auto;
+}
+
 .section-3 {
     width: 100%;
-    height: 200px;
+    height: 265px;
     display: flex;
 }
 
@@ -199,7 +204,7 @@
     justify-content: flex-end;
     align-items: center;
     background-color: #FD6001;
-    height: 200px;
+    height: 265px;
 }
 
 .p1 i {
@@ -220,7 +225,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     text-align: center;
-    color: #ffffff;
+    color: rgba(255, 255, 255, .8);
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -233,7 +238,7 @@
     align-items: center;
     background-color: #0E1229;
     color: #ffffff;
-    height: 200px;
+    height: 265px;
 }
 
 .p2 i {
@@ -251,7 +256,7 @@
 }
 
 .p2 p {
-    color: #ffffff;
+    color: rgba(255, 255, 255, .8);
     font-family: 'Poppins', sans-serif;
     padding: 10px;
     text-align: center;
@@ -259,10 +264,19 @@
     margin-bottom: 10px;
 }
 
+.p1i {
+    height: 230px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .overlay {
     position: absolute;
     top: 150px;
-    bottom: -28px;
+    bottom: 46px;
     left: 0;
     right: 0;
     background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
@@ -279,7 +293,7 @@
 
 .bg-sec4 {
     width: 40%;
-    height: 930px;
+    height: 935px;
     background-image: url(../image/sec\ 4.jpg);
     background-position: right;
     background-size: cover;
@@ -467,4 +481,41 @@ input {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+}
+
+.ourcourse {
+    margin: 0 auto;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    padding: 112px 0 0 15px;
+    margin: 0 -15px 48px;
+}
+
+.ourcourse h2 {
+    font-size: 44px;
+    margin-bottom: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourcourse p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourcourse1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourcourse2 {
+    height: 200px;
+    width: 24%;
+}
+
+.ourcourse2 img {
+    width: 100%;
 }
