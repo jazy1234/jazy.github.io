@@ -486,18 +486,17 @@ input {
 
 .sec5e p {
     margin-top: 10px;
-    color: #666;
+    color: #666666;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 14px;
 }
 
 .ourcourse {
-    margin: 0 auto;
-    height: 50px;
-    width: 80%;
+    height: 120px;
+    width: 100%;
     text-align: center;
-    padding: 112px 0 0 15px;
+    padding: 80px 0 0 15px;
     margin: 0 -15px 48px;
 }
 
@@ -508,21 +507,21 @@ input {
 }
 
 .ourcourse p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
 .ourcourse1 {
-    height: 200px;
+    height: 285px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .ourcourse2 {
-    height: 200px;
-    width: 24%;
+    height: 300px;
+    width: 23.6%;
 }
 
 .ourcourse2 img {
@@ -531,6 +530,158 @@ input {
 
 .ourcourse21 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin: 0 auto;
+}
+
+.sec6 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+
+.sec6i {
+    height: 250px;
+    width: 23.6%;
+}
+
+.sec6i1 {
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sec6i2 {
+    height: 180px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.sec6ii {
+    height: 0;
+    width: 22%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec6ii h3 {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fd6100;
+}
+
+.sec6ii i {
+    font-size: 12px;
+    color: #fd6100;
+}
+
+.sec6i2 h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec6i2 p {
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-7 {
+    width: 100%;
+    height: 150px;
+}
+
+.sec7i {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec7i h1 {
+    margin-bottom: 24px;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec7i p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec8 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+
+.sec8i {
+    height: 400px;
+    width: 24.6%;
+}
+
+.sec8i1 {
+    height: 300px;
+    width: 100%;
+    background-repeat: round;
+    background-image: url(../image/teacher-1.jpg);
+}
+
+.sec8i2 {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec8i2 h1 {
+    margin-top: 8px;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.sec8i2 h2 {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #fd6100;
+}
+
+.sec8i2 p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.sec8i2 h1:hover {
+    color: #fd6100;
+}
+
+.sec9 {
+    height: 600px;
+    width: 100%;
+    background-image: url(../image/bg_5.jpg);
+    background-repeat: round;
+}
+
+.sec9i {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sec9i1 {
+    height: 400px;
+    width: 50%;
 }
