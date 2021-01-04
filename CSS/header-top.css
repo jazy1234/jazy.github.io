@@ -667,21 +667,77 @@ input {
 
 .sec9 {
     height: 600px;
+    position: relative;
     width: 100%;
     background-image: url(../image/bg_5.jpg);
     background-repeat: round;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    margin-bottom: 112px;
 }
 
 .sec9i {
     height: 400px;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .sec9i1 {
+    z-index: 1;
     height: 400px;
-    width: 50%;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.sec9i1 h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.sec9i1 p {
+    font-size: 16px;
+    margin-bottom: 64px;
+    color: #666666;
+}
+
+.btnsec {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn4 {
+    padding: 6px 0px;
+    width: 45%;
+    color: #666666;
+    border-bottom: 1px solid #666666;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.btn5 {
+    z-index: 1;
+    background-color: #FD6001;
+    border-radius: 25px;
+    padding: 10px 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    height: 18px;
+    margin: 8px;
 }
